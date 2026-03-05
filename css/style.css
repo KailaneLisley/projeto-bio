@@ -88,14 +88,13 @@ img {
     background-color: #d8cdb2;
     border-radius: 40px;
 
-    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
     padding: 70px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    gap: 40px;
+    position: relative; /* importante */
 }
 
 /* TEXTO */
@@ -131,12 +130,16 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
-/* imagem saindo do card */
-
 .hero-image img {
-    max-height: 420px;
+    max-height: 500px;
+
+    position: absolute;
+    bottom: -70px;   /* faz a imagem descer */
+    right: -40px;    /* faz ela sair do card */
 }
 
 /* 3. Layout geral */

@@ -13,6 +13,7 @@ body {
     background-color: #efefef;
     color: #111;
     line-height: 1.6;
+    padding-bottom: 60px;
 }
 
 .section {
@@ -81,42 +82,46 @@ img {
 
 /* HERO */
 
-/*Bloco Interno */
 .hero {
     margin-top: 40px;
-    background-color: #d8cdb2;
-    border-radius: 30px;
-    padding: 60px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    min-height: 70vh;
 }
 
-/*Texto do Hero*/
+/* TEXTO */
+
 .hero-text {
-    max-width: 500px;
+    max-width: 520px;
 }
 
 .hero h2 {
-    font-size: 48px;
+    font-size: 60px;
     margin-bottom: 10px;
 }
 
 .hero h3 {
-    font-size: 22px;
-    margin-bottom: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    max-width: 400px;
-    line-height: 1.5;
+    font-size: 16px;
+    max-width: 420px;
 }
 
-/*Imagem do Hero*/
+/* IMAGEM */
+
 .hero-image {
+    background-color: #d8cdb2;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.hero-image img {
     max-width: 350px;
     border-radius: 20px;
 }
@@ -145,6 +150,10 @@ img {
 
     .hero img {
         margin-top: 20px;
+    }
+
+    .hero-text {
+        max-width: 100%;
     }
 
 }

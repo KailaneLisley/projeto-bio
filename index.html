@@ -9,106 +9,149 @@
 </head>
 
 <body>
-  <header>
-    <h1>Kailane Lisley</h1>
-    <nav>
-        <a href="#home">Home</a> |
-        <a href="#sobre">Sobre mim</a> |
-        <a href="#habilidades">Habilidades</a> |
-        <a href="#projetos">Projetos</a> |
-        <a href="#contato">Contato</a>
-    </nav>
-    <hr>
-  </header>
+    <header class="header">
+        <div class="contrainer header-content">
 
-  <section id="home">
-    <h2>Kailane Lisley</h2>
-    <p>Graduanda em Ciência da Computação <br> Futura cientista de dados e pesquisadora em neurociência computacional</p>
-  </section>
+            <div class="logo">
+                <img src="img/kailane.jpg" alt="Logo de Kailane Lisley">
+                <h1>Kailane Lisley</h1>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
 
-  <section id="sobre">
-    <h2>Sobre mim</h2>
+            <button class="menu-toggle">☰</button>
+            <button class="theme-toggle">🌙</button>
 
-    <img src="imagens/kailane.jpg" alt="Foto de Kailane" width="200">
+        </div>
+    </header>
 
-    <p>
-        Olá! Meu nome é <strong>Kailane Lisley</strong>.
-        Sou estudante de <em>Ciência da Computação</em> e tenho interesse em
-        Inteligência Artificial, Computação Evolucionária e Pesquisa Científica.
-    </p>
+    <main class="main">
 
-    <p>
-        Meu objetivo é desenvolver tecnologias que facilitem a vida das pessoas
-        e também ensinar conceitos complexos de forma simples.
-    </p>
-    </section>
-    
-    <section id="habilidades">
-    <h2>Habilidades</h2>
+        <section class="hero container">
+            <h2>Kailane Lisley</h2>
+            <p>Desenvolvedora apaixonada por criar soluções inovadoras e eficientes. Explore meus projetos e habilidades para conhecer mais sobre meu trabalho.</p>
+        </section>
 
-    <h3>Tecnologias</h3>
-    <ul>
-        <li>HTML</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>Python (em aprendizado)</li>
-    </ul>
+        <!-- Seção SOBRE MIM -->
+        <section id="sobre" class="section container">
+            <h2>Sobre Mim</h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/foto2.jpg" alt="Foto profissional">
+                </div>
 
-    <h3>Interesses</h3>
-    <ol>
-        <li>Inteligência Artificial</li>
-        <li>Machine Learning</li>
-        <li>Teoria da Computação</li>
-    </ol>
-    </section>
+                <div class="about-text">
+                    <p>Texto resumido...</p>
 
-    <section id="projetos">
-    <h2>Projetos</h2>
+                    <div class="extra-content">
+                        <p>Texto adicional escondido...</p>
+                    </div>
 
-    <table border="1">
-        <tr>
-            <th>Projeto</th>
-            <th>Descrição</th>
-            <th>Status</th>
-        </tr>
+                    <button class="btn-more">Mostrar mais</button>
+                </div>
+            </div>
 
-        <tr>
-            <td>MOEA/D Research</td>
-            <td>Estudo de otimização multiobjetivo</td>
-            <td>Em andamento</td>
-        </tr>
+        </section>
 
-        <tr>
-            <td>Adapt</td>
-            <td>Plataforma educacional</td>
-            <td>MVP</td>
-        </tr>
-    </table>
-    </section>
+        <!-- Seção de HABILIDADES -->
+        <section id="habilidades" class="section container">
+            <h2>Habilidades</h2>
 
-    <section id="contato">
-    <h2>Contato</h2>
+            <div class="cards">
+        
+                <div class="card">
+                    <h3>Linguagens</h3>
+                        <ul>
+                            <li>C</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
 
-    <form>
-        <label>Nome:</label><br>
-        <input type="text" name="nome"><br><br>
+                <div class="card">
+                    <h3>Ferramentas</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
 
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
+            </div>
 
-        <label>Mensagem:</label><br>
-        <textarea name="mensagem"></textarea><br><br>
+        </section>
 
-        <input type="submit" value="Enviar">
-    </form>
-    </section>
+        <!-- Seção de PROJETOS -->
+        <section id="projetos" class="section container">
+            <h2>Projetos</h2>
 
-    <footer>
-    <h3>Onde me encontrar</h3>
+            <div class="projects-grid">
 
-    <iframe src="https://github.com" width="400" height="200"></iframe>
+                <article class="project-card">
+                    <h3>Projeto 1</h3>
+                <p>Descrição...</p>
+            </article>
 
-    <p>&copy; 2026 - Kailane Lisley</p>
+            <article class="project-card">
+                <h3>Projeto 2</h3>
+                <p>Descrição...</p>
+            </article>
+
+            </div>
+
+        </section>
+
+        <!-- Seção BIOGRAFIA -->
+        <section id="biografia" class="section container">
+
+        </section>
+
+        <!-- Seção de CONTATO -->
+        <section id="contato" class="section container">
+            <h2>Contato</h2>
+
+            <form id="contact-form" class="form">
+
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                    <small class="error-message"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <small class="error-message"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                    <small class="error-message"></small>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <h3>Onde me encontrar</h3>
+
+        <iframe src="https://github.com" width="400" height="200"></iframe>
+
+        <p>&copy; 2026 - Kailane Lisley</p>
     </footer>
 </body>
 </html>

@@ -88,8 +88,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    min-height: 70vh;
+    min-height: 80vh;
 }
 
 /* TEXTO */
@@ -117,13 +116,26 @@ img {
 
 .hero-image {
     background-color: #d8cdb2;
-    padding: 30px;
+    padding: 40px;
     border-radius: 30px;
+
+    width: 420px;
+    height: 420px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    position: relative;
 }
 
+/* imagem saindo do card */
+
 .hero-image img {
-    max-width: 350px;
-    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+
+    max-height: 520px;
 }
 
 /* 3. Layout geral */

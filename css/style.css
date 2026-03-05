@@ -84,7 +84,7 @@ img {
 
 .hero {
     margin-top: 40px;
-
+    gap: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,26 +116,21 @@ img {
 
 .hero-image {
     background-color: #d8cdb2;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
     border-radius: 30px;
 
     width: 420px;
-    height: 420px;
 
     display: flex;
-    align-items: flex-end;
     justify-content: center;
-
-    position: relative;
+    align-items: center;
 }
 
 /* imagem saindo do card */
 
 .hero-image img {
-    position: absolute;
-    bottom: 0;
-
-    max-height: 520px;
+    max-height: 500px;
+    width: auto;
 }
 
 /* 3. Layout geral */

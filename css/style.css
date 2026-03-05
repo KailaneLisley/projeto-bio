@@ -10,11 +10,14 @@
 @font-face {
     font-family: "MinhaFonte";
     src: url("../fonts/MinhaFonte.otf") format("opentype");
+
+    font-family: "Fonte2";
+    src: url("../fonts/Fonte2.otf") format("opentype");
 }
 
 /* CONFIGURAÇÃO GLOBAL */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fonte2",  Arial, Helvetica, sans-serif;
     background-color: #efefef;
     color: #111;
     line-height: 1.6;
@@ -105,7 +108,7 @@ img {
 }
 
 .hero h2 {
-    font-size: 60px;
+    font-size: 85px;
     margin-bottom: 10px;
     font-family: "MinhaFonte", serif;
 }

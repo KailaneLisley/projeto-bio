@@ -83,22 +83,16 @@ img {
 /* HERO */
 
 .hero {
-    margin-top: 40px;
-
-    background-color: #d8cdb2;
-    border-radius: 40px;
-
-    padding: 70px;
+    margin-top: 60px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    position: relative;
+    gap: 60px;
 }
 
 /* TEXTO */
-
 .hero-text {
     max-width: 520px;
 }
@@ -114,32 +108,12 @@ img {
 }
 
 .hero p {
-    max-width: 420px;
     line-height: 1.6;
 }
-
 /* IMAGEM */
 
-.hero-image {
-    background-color: #d8cdb2;
-    padding: 40px 40px 0 40px;
-    border-radius: 30px;
-
-    width: 420px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-}
-
 .hero-image img {
-    max-height: 500px;
-
-    position: absolute;
-    bottom: -170px;   /* faz a imagem descer */
-    right: -40px;    /* faz ela sair do card */
+    max-width: 400px;
 }
 
 /* 3. Layout geral */
@@ -161,11 +135,10 @@ img {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 50px 30px;
     }
 
     .hero-image img {
-        max-height: 350px;
+        max-width: 300px;
     }
 
 }

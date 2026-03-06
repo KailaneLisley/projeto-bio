@@ -42,7 +42,7 @@ img {
 /* HEADER */
 .header {
     background-color: #d8cdb2;
-    border-bottom: 3px solid #2c84ff;
+    /*border-bottom: 3px solid #2c84ff;*/
 }
 
 .header-content {
